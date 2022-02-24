@@ -1970,9 +1970,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Header"
 });
@@ -2570,13 +2567,7 @@ var staticRenderFns = [
     return _c("header", [
       _c("h2", [_vm._v("Sono Header")]),
       _vm._v(" "),
-      _c("ul", [
-        _c("li", [_c("a", { attrs: { href: "/login" } }, [_vm._v("Login")])]),
-        _vm._v(" "),
-        _c("li", [
-          _c("a", { attrs: { href: "/register" } }, [_vm._v("Registrazione")]),
-        ]),
-      ]),
+      _c("a", { attrs: { href: "/admin/home" } }, [_vm._v("Area Riservata")]),
     ])
   },
 ]

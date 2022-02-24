@@ -1,10 +1,7 @@
 <template>
   <header>
     <h2>Sono Header</h2>
-    <ul>
-      <li><a href="/login">Login</a></li>
-      <li><a href="/register">Registrazione</a></li>
-    </ul>
+    <a href="/admin/home">Area Riservata</a>
   </header>
 </template>
 
